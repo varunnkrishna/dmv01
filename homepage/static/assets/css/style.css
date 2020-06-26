@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------------------------------------------------
 # Header
---------------------------------------------------------------*/
+--------------------------------------------------------------*/  
 #header {
   z-index: 997;
   transition: all 0.5s;
@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   margin: 0;
   padding: 10px 0;
-  line-height: 1;
+  line-height: 50;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -96,6 +96,21 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
+
+#logo{
+  position: relative;
+}
+
+#logo img {
+position: absolute;
+top: -45px;
+right:-300px;
+
+display: block;
+height: 150px;
+width: auto;
+
+}
 /* Desktop Navigation */
 .nav-menu, .nav-menu * {
   margin: 0;
