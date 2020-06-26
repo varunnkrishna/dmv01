@@ -25,7 +25,7 @@ SECRET_KEY = 'y_6=wao%+0&e+&ywf@*fm31g03nq3cw-r82&nk_gy(7&8n%hvu'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['dmvarun.herokuapp.com']
 
 
 # Application definition
@@ -124,3 +124,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # STATICFILES_DIRS = [
 #         os.path.join(BASE_DIR, 'static')
 #       ] 
+
