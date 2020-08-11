@@ -129,3 +129,12 @@ STATICFILES_DIRS = [
         os.path.join(BASE_DIR, 'static')
       ] 
 
+#settings for email
+# EMAIL_HOST = 'smtp.andtheedits.com'
+# EMAIL_HOST_USER = 'varun@andtheedits.com'
+# EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
+# EMAIL_USE_SSL = False
+
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
